@@ -1,3 +1,5 @@
+[![Coverage Status](https://coveralls.io/repos/github/anna-knappe/tuni_software_testing/badge.svg?branch=main)](https://coveralls.io/github/anna-knappe/tuni_software_testing?branch=main)
+
 # Student template
 
 ## Purpose of this repository
