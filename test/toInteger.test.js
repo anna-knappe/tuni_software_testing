@@ -16,4 +16,7 @@ describe('toInteger', () => {
         it('"3.2" toInteger -> 3', () => {
 			expect(toInteger('3.2')).to.equal(3)
 		})
+		it('-3.2 toInteger -> -3', () => {
+			expect(toInteger(-3.2)).to.equal(-3)
+		})
 });
