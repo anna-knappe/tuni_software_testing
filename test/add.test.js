@@ -7,4 +7,7 @@ describe('Addition', () => {
 		it('6 + 4 should equal 10', () => {
 			expect(add(6, 4)).to.equal(10)
 		})
+		it('6 + -4 should equal 2', () => {
+			expect(add(6, -4)).to.equal(2)
+		})
 });

@@ -7,7 +7,7 @@ describe('defaultTo', () => {
 		it("defaultTo(1, 10) => 1", () => {
 			expect(defaultTo(1, 10)).to.equal(1)
 		})
-		it("defaultTo(1, 10) => 1", () => {
+		it("defaultTo(undefined, 10) => undefined", () => {
 			expect(defaultTo(undefined, 10)).to.equal(10)
 		})
 });
